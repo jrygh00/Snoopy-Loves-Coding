@@ -1,0 +1,222 @@
+body {
+  font-family: 'Nunito', 'Lucida Grande', 'Helvetica Neue', sans-serif;
+  color: #000080;
+  overflow-x: hidden;
+
+  padding: 0px;
+  overflow-x: hidden; /* For Opera */
+
+  background-color: #fff; 
+  background-image: 
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;   
+}  
+
+a {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.750em;
+  letter-spacing: -1.5px;
+  color: #000080;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 1.500em;
+  color: #0000ee;
+}
+
+.btn {
+  color: #bfbfdf;
+  background: #009933 url('img/texture.png') no-repeat right top;
+  padding: 10px 15px;
+  margin: 30px 0px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.btn:hover {
+  background-color: #fefebf;
+}
+
+ul.nav {margin-right: 50px;}
+ul.nav li {
+  list-style: none;
+  float: left;
+  font-size: 50px;
+  margin: 0px 0px -10px 0px;
+  
+
+}
+
+#intro {
+  margin: 5px 0 5px 0;
+  color: #000080;
+
+}
+
+.wrapper {
+  height: 421px;  
+  width: 422px;
+  background: #000080;
+
+  border-top-left-radius: 15em 1em;
+  border-bottom-right-radius: 15em 1em;
+  border-color: midnightblue 1px;
+
+  background:
+  linear-gradient(324deg, #232927 4%,   transparent 4%) -70px 43px,
+  linear-gradient( 36deg, #232927 4%,   transparent 4%) 30px 43px,
+  linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+  linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+  linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+  linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+
+  linear-gradient(324deg, #232927 4%,   transparent 4%) -20px 93px,
+  linear-gradient( 36deg, #232927 4%,   transparent 4%) 80px 93px,
+  linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+  linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+  linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+  linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+  background-color: #232927;
+  background-size: 100px 100px;
+}
+
+#bear img {
+   margin: 28.5px 61.5px;
+}
+
+#peanuts_gang img { 
+border: ridge #FFCC00 10px;
+}
+
+#copyright {
+  border-top: 8px solid #000080;
+  padding: 10px 0px;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.polaroid {
+  position: relative;
+  width: 220px;
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-color: #000000;
+  border-bottom: 45px solid #000000;
+  -webkit-box-shadow: 5px 5px 5px #777;
+     -moz-box-shadow: 5px 5px 5px #777;
+          box-shadow: 5px 5px 5px #777;
+}
+ 
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+  background-color: #000000;
+}
+
+.heart {
+  font-size: 50px;
+  text-align: center;
+  color: rgba(165, 25, 25, 1);
+  padding: 0;
+  margin: 0;
+}
+
+.pulse {
+  -webkit-animation: pulse2 1s linear infinite;
+  -moz-animation: pulse2 1s linear infinite;
+  -ms-animation: pulse2 1s linear infinite;
+  animation: pulse2 1s linear infinite;
+}
+
+@keyframes "pulse2" {
+ 0% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+ 50% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+ }
+ 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+ }
+
+}
+
+@-moz-keyframes pulse2 {
+ 0% {
+   -moz-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -moz-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-webkit-keyframes "pulse2" {
+ 0% {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -webkit-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-ms-keyframes "pulse2" {
+ 0% {
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+
+
+
+
+
+
